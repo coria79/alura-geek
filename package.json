@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "json": "^11.0.0",
+    "server": "^1.0.39"
+  },
+  "name": "alura-geek",
+  "description": "It's an application that simulates a geek store to practice CRUD operations through a JSON server. For the Orecla ONE project group 6 2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {  
+    "start": "json-server --watch \"C:\\Users\\usuario\\Documents\\Repositorios GitHub\\alura-geek\\assets\\database\\db.json\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-description": "This script starts the JSON server using json-server and serves the db.json file as an API."
+  },
+  "author": "Mati Coria - coria79@gmail.com",
+  "license": "ISC",
+  "devDependencies": {},
+  "keywords": []
+}
