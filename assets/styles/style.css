@@ -130,6 +130,10 @@ main{
     background-color: var(--color-third)
 }
 
+.card__delete-button:hover{
+    cursor: pointer;
+}
+
 /* SECTION MAIN - NEW PRODUCT */
 
 .main__section-new-product{
@@ -188,6 +192,11 @@ main{
     color: var(--color-secondary);
     background-color: white;
 }
+
+.form__button-submit:hover, .form__button-clear:hover{
+    cursor: pointer;
+}
+
 
 /* SECTION FOOTER */
 
@@ -339,7 +348,7 @@ footer {
     }
 
     .main__section-new-product{
-        max-width: 330px;
+        max-width: 320px;
     }
 
     .form__button-container{

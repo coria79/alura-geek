@@ -1,46 +1,52 @@
 {
-    "products":[
-        {
-            "name": "Batman Junior",
-            "price":"50",
-            "image":"assets/images/batman.png",
-            "id":1
-        },
-        {
-            "name": "Spiderman Junior",
-            "price":"50",
-            "image":"./assets/images/spiderman.png",
-            "id":2
-        },
-        {
-            "name": "Robin Junior",
-            "price":"25",
-            "image":"./assets/images/robin.png",
-            "id":3
-        },
-        {
-            "name": "Superman Junior",
-            "price":"50",
-            "image":"./assets/images/superman.png",
-            "id":4
-        },
-        {
-            "name": "Ironman Junior",
-            "price":"50",
-            "image":"./assets/images/ironman.png",
-            "id":5
-        },
-        {
-            "name": "Green Lantern Jr",
-            "price":"35",
-            "image":"./assets/images/green.png",
-            "id":6
-        },
-        {
-            "name": "Thor Junior",
-            "price":"45",
-            "image":"./assets/images/thor.png",
-            "id":7
-        }                        
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Batman Junior",
+      "price": "50",
+      "image": "assets/images/batman.png"
+    },
+    {
+      "id": "2",
+      "name": "Spiderman Junior",
+      "price": "50",
+      "image": "./assets/images/spiderman.png"
+    },
+    {
+      "id": "3",
+      "name": "Robin Junior",
+      "price": "25",
+      "image": "./assets/images/robin.png"
+    },
+    {
+      "id": "4",
+      "name": "Superman Junior",
+      "price": "50",
+      "image": "./assets/images/superman.png"
+    },
+    {
+      "id": "5",
+      "name": "Ironman Junior",
+      "price": "50",
+      "image": "./assets/images/ironman.png"
+    },
+    {
+      "id": "6",
+      "name": "Green Lantern Jr",
+      "price": "35",
+      "image": "./assets/images/green.png"
+    },
+    {
+      "id": "7",
+      "name": "Thor Junior",
+      "price": "45",
+      "image": "./assets/images/thor.png"
+    },
+    {
+      "id": "c7d9",
+      "name": "The Hulk Junior",
+      "price": "35",
+      "image": "./assets/images/the-hulk.png"
+    }
+  ]
 }

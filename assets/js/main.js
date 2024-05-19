@@ -6,6 +6,7 @@ const form = document.querySelector("[data-form]");
 function createCard(name, price, image, id) {
     const card = document.createElement("div");
     card.classList.add("card");
+    card.classList.add(`card_${id}`);
 
     card.innerHTML = `
         <div class="card__img-container">
@@ -64,5 +65,23 @@ form.addEventListener("submit", (event) =>{
         .then((res) => console.log(res))
         .catch((err) => console.log(err));
 });
+
+console.log(productContainer);
+
+productContainer.addEventListener("click", (event) => {
+    const deleteButton = event.target.closest(".card__delete-button");
+    if (deleteButton) {
+        const productId = deleteButton.getAttribute("data-id");
+        console.log("ID del producto:", productId);
+
+        servicesProducts.deleteProduct(productId)
+            .then(() => {
+                console.log(`Producto con ID ${productId} eliminado.`);
+                location.reload(); // Recargar la página después de eliminar el producto
+            })
+            .catch((err) => console.log(err));
+    }
+});
+
 
 render();
