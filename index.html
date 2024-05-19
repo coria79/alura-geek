@@ -28,89 +28,6 @@
         <section class="main__section-products">
             <h2 class="main__title">MIS PRODUCTOS:</h2>
             <div class="products-container" data-product>
-                <div class="card">
-                    <div class="card__img-container">
-                        <img src="assets/images/batman.png" alt="img">
-                    </div>
-
-                    <div class="card--info">
-                        <p class="card__name">Batman Junior</p>
-                        <div class="card__value">
-                            <p class="card__price">$ 20</p>
-                            <button class="card__delete-button" data-id="${id}">
-                                <img src="./assets/images/trash-icon-white.png" alt="Eliminar">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img-container">
-                        <img src="assets/images/spiderman.png" alt="img">
-                    </div>
-
-                    <div class="card--info">
-                        <p class="card__name">Spiderman Junior</p>
-                        <div class="card__value">
-                            <p class="card__price">$ 20</p>
-                            <button class="card__delete-button" data-id="${id}">
-                                <img src="./assets/images/trash-icon-white.png" alt="Eliminar">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img-container">
-                        <img src="assets/images/spiderman.png" alt="img">
-                    </div>
-
-                    <div class="card--info">
-                        <p class="card__name">Spiderman Junior</p>
-                        <div class="card__value">
-                            <p class="card__price">$ 20</p>
-                            <button class="card__delete-button" data-id="${id}">
-                                <img src="./assets/images/trash-icon-white.png" alt="Eliminar">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img-container">
-                        <img src="assets/images/spiderman.png" alt="img">
-                    </div>
-
-                    <div class="card--info">
-                        <p class="card__name">Spiderman Junior</p>
-                        <div class="card__value">
-                            <p class="card__price">$ 20</p>
-                            <button class="card__delete-button" data-id="${id}">
-                                <img src="./assets/images/trash-icon-white.png" alt="Eliminar">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__img-container">
-                        <img src="assets/images/spiderman.png" alt="img">
-                    </div>
-
-                    <div class="card--info">
-                        <p class="card__name">Spiderman Junior</p>
-                        <div class="card__value">
-                            <p class="card__price">$ 20</p>
-                            <button class="card__delete-button" data-id="${id}">
-                                <img src="./assets/images/trash-icon-white.png" alt="Eliminar">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-
-
-
 
             </div>
         </section>
@@ -118,9 +35,9 @@
         <section class="main__section-new-product">
             <h2 class="main__title">AGREGAR PRODUCTO:</h2>
             <form class="form" data-form>
-                <input class="form__input-name" placeholder="nombre..." type="text">
-                <input class="form__input-price" data-price placeholder="precio..." type="text">
-                <input class="form__input-img" data-image placeholder="imagen..." type="text">
+                <input class="form__input-name" placeholder="nombre..." type="text" data-name>
+                <input class="form__input-price" data-price placeholder="precio..." type="text" data-price>
+                <input class="form__input-img" data-image placeholder="imagen..." type="text" data-image>
 
                 <div class="form__button-container">
                     <button type="submit" class="form__button-submit" id="button">Enviar</button>
@@ -140,5 +57,8 @@
         <p class="footer__credit">Desarrollado por Mati Coria</p>
         <p class="footer__year">2024</p>
     </footer>
+    <script type="module" src="./assets/js/main.js"></script>
+    <script type="module" src="./assets/js/product-services.js"></script>
+
 </body>
 </html>

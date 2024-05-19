@@ -3,7 +3,7 @@
         {
             "name": "Batman Junior",
             "price":"50",
-            "image":"./assets/images/batman.png",
+            "image":"assets/images/batman.png",
             "id":1
         },
         {
