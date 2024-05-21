@@ -5,6 +5,7 @@
     --color-third: #9303A6;
     --color-header: white;
     --color-footer: white;
+    --color-error: red;
     --main-font: "Press Start 2P", system-ui;
 }
 
@@ -134,6 +135,12 @@ main{
     cursor: pointer;
 }
 
+.card__delete-button:active {
+    transform: translateY(2px);
+    /* A small shadow */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
 /* SECTION MAIN - NEW PRODUCT */
 
 .main__section-new-product{
@@ -164,6 +171,16 @@ main{
 
 .form__input-name::placeholder, .form__input-price::placeholder, .form__input-img::placeholder{
     color: var(--color-secondary);
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: var(--color-error);
+    display: block; /* Make the <span> visible */
 }
 
 .form__button-container{

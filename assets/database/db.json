@@ -41,12 +41,6 @@
       "name": "Thor Junior",
       "price": "45",
       "image": "./assets/images/thor.png"
-    },
-    {
-      "id": "c7d9",
-      "name": "The Hulk Junior",
-      "price": "35",
-      "image": "./assets/images/the-hulk.png"
     }
   ]
 }

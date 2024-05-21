@@ -35,13 +35,16 @@
         <section class="main__section-new-product">
             <h2 class="main__title">AGREGAR PRODUCTO:</h2>
             <form class="form" data-form>
-                <input class="form__input-name" placeholder="nombre..." type="text" data-name>
-                <input class="form__input-price" data-price placeholder="precio..." type="text" data-price>
-                <input class="form__input-img" data-image placeholder="imagen..." type="text" data-image>
+                <input class="form__input-name" id="nameInput"  placeholder="nombre..." type="text" required data-name>
+                <span class="error" id="nameError"></span>
+                <input class="form__input-price" id="priceInput" placeholder="precio..." type="text" required data-price>
+                <span class="error" id="priceError"></span>
+                <input class="form__input-img" id="imgInput" placeholder="imagen..." type="text"  required data-image>
+                <span class="error" id="imgError"></span>
 
                 <div class="form__button-container">
-                    <button type="submit" class="form__button-submit" id="button">Enviar</button>
-                    <button type="reset" class="form__button-clear" id="button">Limpiar</button>
+                    <button type="submit" class="form__button-submit">Enviar</button>
+                    <button type="reset" class="form__button-clear">Limpiar</button>
                 </div>
             </form>
         </section>
